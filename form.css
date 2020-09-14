@@ -1,3 +1,18 @@
+.company {
+    float: left;
+    text-align: left;
+    margin: .5em;
+    padding: .1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo {
+    border-radius: 25px;
+    max-width: 15%;
+    float: top;
+    margin: 5px;
+    padding-right: 5px;
+}
+
 body {
     margin: 0;
     padding: 0;
