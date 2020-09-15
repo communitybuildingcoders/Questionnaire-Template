@@ -1,0 +1,35 @@
+body {
+    color: #343e3d;
+    *background-color: #aedcc0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.checker {
+    display: grid;
+    grid-template-columns: 10% 5% 75%;
+    align-items: top;
+    white-space: nowrap;
+}
+
+#survey-form {
+    *background-color: #7bd389;
+}
