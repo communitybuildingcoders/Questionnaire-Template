@@ -19,8 +19,14 @@ body {
 }
 
 button{
-    margin: 0 auto;
-    display: block;
+    position:absolute;
+    transition: .5s ease;
+    left: 60%;
+}
+
+p {
+    margin: auto;
+    padding-right: 10%;
 }
 
 /* Common stuff I had trouble including due to SSL */
