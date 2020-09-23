@@ -18,15 +18,15 @@
                     alt="" srcset=""></span>
             <p id="description">Please let us know how we can serve you.</p>
             <hr>
-            <form id="survey-form" method="POST" data-netlify="true">
+            <form id="survey-form" name="questionnaire" method="POST" data-netlify="true">
                 <fieldset id="top">
                     <legend>Personal Information</legend>
                     <span class="form-group"><label id="name-label" for="name">Name: </label><input id="name"
-                            type="text" required placeholder="Enter Your Name"></span>
+                            type="text" name="name" required placeholder="Enter Your Name"></span>
                     <span class="form-group"><label id="name-label" for="name">Organization: </label><input id="orgName"
-                            type="text" required placeholder="Enter Your Organization"></span>
+                            type="text" name="organization" required placeholder="Enter Your Organization"></span>
                     <span class="form-group"><label id="email-label" for="email">Email: </label><input id="email"
-                            type="email" min="0" max="130" placeholder="Enter Your Email"></span>
+                            type="email" min="0" max="130" name="email" placeholder="Enter Your Email"></span>
                 </fieldset>
                 <fieldset>
                     <legend>Tell Us A Little About Your Current Website</legend>
@@ -38,7 +38,7 @@
                                 <li>What apects of your website diminish your user's experience or are frustrating to your site users?</li>
                             </ul>
                         </label>
-                        <textarea id="comment" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment" name="current-website" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
@@ -55,7 +55,7 @@
                                 <li>What image, look, or feel do you want your brand’s website to portray?</li>
                             </ul>
                         </label>
-                        <textarea id="comment0" placeholder="Enter your response here..." rows="10" cols="50"></textarea>
+                        <textarea id="comment0" name="future" placeholder="Enter your response here..." rows="10" cols="50"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
@@ -68,34 +68,34 @@
                 <fieldset>
                     <span class="form-group">
                         <label id="comments-label">What is the project timeline?</label>
-                        <textarea id="comment2" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment2" name="project-timeline" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
                     <span class="form-group">
                         <label id="comments-label">Which functions or features are necessary to have,  versus nice to
                             have?</label>
-                        <textarea id="comment3" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment3" name="functions-features" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
                     <span class="form-group">
                         <label id="comments-label">What are the most important calls-to-action (CTAs) on your
                             site?</label>
-                        <textarea id="comment4" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment4" name="ctas" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
                     <span class="form-group">
                         <label id="comments-label">How much traffic are you anticipating?</label>
-                        <textarea id="comment5" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment5" name="traffic" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <fieldset>
                     <span class="form-group">
                         <label id="comments-label">What is the most important information your site must relay to the
                             user, especially on the home page?</label>
-                        <textarea id="comment6" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment6" name="important-info" placeholder="Enter your response here..." rows="10"></textarea>
                     </span>
                 </fieldset>
                 <div class="button">
