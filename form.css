@@ -807,8 +807,6 @@ body {
   .how-it-works-list dt:before{
       height:40px;
       width:40px;
-      align-content: space-around;
-     
   }
 }
 
