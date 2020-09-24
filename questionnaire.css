@@ -22,7 +22,7 @@ body {
     align-content: center;
 }
 
-h1, legend, p, li{
+h1, legend, p {
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -31,7 +31,7 @@ h1, legend, p, li{
 ul {
     margin: auto;
     align-items: center;
-    list-style: none;
+    list-style-type: disc;
 }
 
 li {
@@ -123,3 +123,4 @@ textarea{
     border-radius: 5px;
 
 }
+
