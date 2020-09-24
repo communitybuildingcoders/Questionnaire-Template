@@ -792,7 +792,7 @@ body {
 
   .questionnaire-slide{
       width:70%;
-      margin-left: 20px;
+      align-content: center;
   }
 
   .questionnaire-get-started {
