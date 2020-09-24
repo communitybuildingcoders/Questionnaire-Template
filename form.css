@@ -802,6 +802,7 @@ body {
 
   .how-it-works-list dt {
     font-size: 3vw;
+    align-content: center;
   }
 
   .how-it-works-list dt:before{
