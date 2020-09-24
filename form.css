@@ -803,6 +803,12 @@ body {
   .how-it-works-list dt {
     font-size: 3vw;
   }
+
+  .how-it-works-list dt:before{
+      height:40px;
+      width:40px;
+     
+  }
 }
 
 @media screen and (max-width: 1250px) {
