@@ -783,10 +783,15 @@ body {
   .content-primary {
     margin-left: 10px;
     padding: 0;
+  
   }
 
   #slide-overview {
     margin-top: 10px;
+  }
+
+  .questionnaire-slide{
+      width:70%;
   }
 
   .questionnaire-get-started {
