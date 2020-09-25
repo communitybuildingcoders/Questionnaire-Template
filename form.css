@@ -37,7 +37,7 @@ body {
 /* branding */
 
 .employee-questionnaire .company {
-  margin: .5em .5em 2em;
+  margin: 1rem 1rem 4rem;
 }
 .employee-questionnaire .company h1 {
   font-size: 4rem;
@@ -45,11 +45,10 @@ body {
   font-weight: 700;
 }
 .employee-questionnaire .logo {
-  border-radius: 25px;
+  width: 15%;
   max-width: 90px;
   float: left;
-  margin: 5px;
-  padding-right: 5px;
+  margin-right: 1.5rem;
 }
 
 
@@ -59,40 +58,27 @@ body {
 .employee-questionnaire {
   color: #fff;
   font-family: "Noto Sans", Arial, sans-serif;
-  /* z-index: 1; */
 }
-/* 
-.employee-questionnaire .hidden {
-  display: none;
-} */
 
 .employee-questionnaire .content-primary {
   background-color: rgba(0, 0, 0, 0.7);
-  /* z-index: 1; */
   font-size: 2rem;
   padding: 30px;
 }
 
-.employee-questionnaire hr {
-  border-top: 1px solid #666666;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.employee-questionnaire .how-it-works {
+.employee-questionnaire h2.how-it-works {
   font-size: 2rem;
   font-weight: 600;
-  margin: 80px 0 20px;
+  margin: 5rem 0 3rem;
 }
 
 .how-it-works-list {
   counter-reset: big-numbers-counter;
-  margin-bottom: 50px;
+  margin-bottom: 6rem;
 }
 
 .how-it-works-list dt {
   position: relative;
-  display: inline-block;
   padding-left: 70px;
   min-height: 50px;
   margin-top: 15px;
@@ -123,7 +109,7 @@ body {
 
 .questionnaire-get-started {
   text-align: right;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .questionnaire-get-started .btn {
   background-color: #9d0fa1;
@@ -143,60 +129,77 @@ body {
 
 
 
-/*  Based on bootstrap's media query breakpoints
-    xs = Extra small <576px. Max container width None (auto)
-    sm = Small ≥576px. Max container width 540px.
-    md = Medium ≥768px. Max container width 720px.
-    lg = Large ≥992px. Max container width 960px.
-    xl = Extra large ≥1200px. Max container width 1140px.
+/*  
+  Based on bootstrap's media query breakpoints
+  xs = Extra small <576px. Max container width None (auto)
+  sm = Small ≥576px. Max container width 540px.
+  md = Medium ≥768px. Max container width 720px.
+  lg = Large ≥992px. Max container width 960px.
+  xl = Extra large ≥1200px. Max container width 1140px.
 */
+
+/* x-small screens */
 @media screen and (max-width: 575px) {
   .employee-questionnaire .logo {
-    visibility: hidden;
     display:none;
   }
 }
+
+/* small screens */
+
 @media screen and (min-width: 576px) {
   .employee-questionnaire .company {
-    /* padding-left: 20px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-content: space-between;
-    margin: 0;
-  }
-  .employee-questionnaire .company span {
-    /* align-items: center;
-    justify-content: center;
-    margin: 10px; */
-    flex: 1;
+    margin-left: 0;
+    margin-right: 0;
   }
   .employee-questionnaire .company h1 {
-    font-size: 2.3rem;
-    flex: 5;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px; */
+    font-size: 1.8rem;
+    padding-top: 2rem;
   }
   .employee-questionnaire .content-primary {
     padding: 30px 50px 110px;
   }
+  .employee-questionnaire .questionnaire-slide {
+    margin-top: 5rem;
+  }
+  .employee-questionnaire .questionnaire-get-started {
+    margin-bottom: 0;
+  }
 }
+
+/* medium screens */
+
 @media screen and (min-width: 768px) {
   .employee-questionnaire .content-primary {
     width: 70%;
     margin-left: 30px;
   }
+  .employee-questionnaire .company h1 {
+    font-size: 2rem;
+  }
   .employee-questionnaire .how-it-works-list {
     width: 60%;
   }
   .employee-questionnaire .questionnaire-get-started {
-    margin-top: -140px;
+    margin-top: -160px;
   }
 }
+
+/* large screens */
+
 @media screen and (min-width: 992px) {
   .employee-questionnaire .content-primary {
     width: 60%;
+  }
+  .employee-questionnaire .company h1 {
+    font-size: 2.3rem;
+  }
+}
+
+/* x-large screens */
+
+@media screen and (min-width: 1200px) {
+  .employee-questionnaire .company h1 {
+    font-size: 2.5rem;
   }
 }
