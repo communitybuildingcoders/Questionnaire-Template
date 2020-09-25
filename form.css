@@ -37,10 +37,10 @@ body {
 /* branding */
 
 .employee-questionnaire .company {
-  margin: 1rem 1rem 4rem;
+  margin: 1rem 0 4rem;
 }
 .employee-questionnaire .company h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Oxygen", Arial, sans-serif;
   font-weight: 700;
 }
@@ -62,7 +62,7 @@ body {
 
 .employee-questionnaire .content-primary {
   background-color: rgba(0, 0, 0, 0.7);
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 30px;
 }
 
@@ -95,7 +95,7 @@ body {
   font-size: 28px;
   line-height: 50px;
   left: 0px;
-  top: -4px;
+  top: -1rem;
   background-color: #fff;
   width: 50px;
   height: 50px;
@@ -108,7 +108,7 @@ body {
 /* button */
 
 .questionnaire-get-started {
-  text-align: right;
+  text-align: center;
   margin-bottom: 4rem;
 }
 .questionnaire-get-started .btn {
@@ -138,7 +138,13 @@ body {
   xl = Extra large ≥1200px. Max container width 1140px.
 */
 
-/* x-small screens */
+/* xx-small and x-small screens */
+
+@media screen and (max-width: 300px) {
+  .employee-questionnaire .company h1 {
+    font-size: 2.5rem;
+  }
+}
 @media screen and (max-width: 575px) {
   .employee-questionnaire .logo {
     display:none;
@@ -148,10 +154,6 @@ body {
 /* small screens */
 
 @media screen and (min-width: 576px) {
-  .employee-questionnaire .company {
-    margin-left: 0;
-    margin-right: 0;
-  }
   .employee-questionnaire .company h1 {
     font-size: 1.8rem;
     padding-top: 2rem;
@@ -164,6 +166,7 @@ body {
   }
   .employee-questionnaire .questionnaire-get-started {
     margin-bottom: 0;
+    text-align: right;
   }
 }
 
@@ -173,15 +176,10 @@ body {
   .employee-questionnaire .content-primary {
     width: 70%;
     margin-left: 30px;
+    min-height: 90vh;
   }
   .employee-questionnaire .company h1 {
     font-size: 2rem;
-  }
-  .employee-questionnaire .how-it-works-list {
-    width: 60%;
-  }
-  .employee-questionnaire .questionnaire-get-started {
-    margin-top: -160px;
   }
 }
 
@@ -190,6 +188,7 @@ body {
 @media screen and (min-width: 992px) {
   .employee-questionnaire .content-primary {
     width: 60%;
+    max-width: 840px;
   }
   .employee-questionnaire .company h1 {
     font-size: 2.3rem;
