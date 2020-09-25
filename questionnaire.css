@@ -11,6 +11,7 @@ body {
     display: block;
     font-family: 'Open Sans';
     margin-top: 1rem;
+    background-color: rgba(240,255,255, 0.6);
 }
 
 .logo {
@@ -34,8 +35,16 @@ h1 {
     text-align: center;
     margin-right: 25rem;
 }
-/*separated h1 for seperate styling*/
-legend, p {
+
+legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(157, 15, 161);
+    text-align: center;
+    
+}
+
+p {
     font-size: 1.5rem;
     color: black;
     text-align: center;
