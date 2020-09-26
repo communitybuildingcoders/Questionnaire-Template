@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oxygen:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="questionnaire.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital@1&display=swap"
-        rel="stylesheet">
+    
     <title>Questionnaire / CBCoders </title>
 </head>
 
 <body>
-    <div class="overlay"></div>
+    
     <div class="container">
         <div class="content">
-            <span><img class="logo" src="./images/logo.svg" alt="CBCoders logo"></span>
+            <header>
+                <div class="row">
+            <img class="logo" src="./images/logo.svg" alt="CBCoders logo">
                 <h1>Community Building Coders</h1>
+            </div>
             <p id="description">Please let us know how we can serve you.</p>
+            </header>   
             <hr>
             <form id="survey-form" name="questionnaire" method="POST" data-netlify="true">
                 <fieldset id="top">
@@ -33,11 +37,11 @@
                 <fieldset>
                     <legend>Current Website</legend></br>
                        <label id="likes-label">What do you love about the current version of website, or not love?</label>
-                        <textarea id="comment0" name="likes" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
+                        <textarea id="comment0" name="likes" placeholder="Enter Your Response Here..." rows="10" cols="10"></textarea></br>
                         <label for="dislikes-label">What do you find frustrating about your website, how or why is frustrating?</label>
-                        <textarea id="comment1" name="dislikes" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
+                        <textarea id="comment1" name="dislikes" placeholder="Enter Your Response Here..." rows="10" cols="10"></textarea></br>
                         <label for="ux-label">What apects of your website diminishes your user's experience and/or are frustrating to your site users?</label>
-                        <textarea id="comment2" name="ux" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment2" name="ux" placeholder="Enter Your Response Here..." rows="10" cols="10"></textarea>
                 </fieldset>
                 <fieldset>
                     <legend class>The Future</legend></br>
