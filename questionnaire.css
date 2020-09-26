@@ -37,7 +37,7 @@ h1 {
 }
 
 legend {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: 700;
     color: rgba(157, 15, 161);
     text-align: center;
@@ -58,12 +58,14 @@ ul {
 
 li {
     font-size: 20px;
+    margin-bottom: 0.3rem;
     padding: 5px 0;
 }
 
 label {
     font-size: 1.5rem;
     color: black;
+    margin-bottom: 0.3rem;
 }
 fieldset {
     display: flex;
@@ -101,6 +103,7 @@ input {
     text-align: center;
     display: block;
     margin: 0 auto;
+    padding: 0.7rem 2rem;
 }
 
 #submit {
@@ -132,7 +135,7 @@ input {
     background: #4267b2;
     border: solid 1px #4267b2;
     color: #fff;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 #submit:active {
