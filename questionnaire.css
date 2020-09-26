@@ -49,6 +49,8 @@ legend {
     color: rgba(157, 15, 161);
     text-align: center;
     
+    
+    
 }
 
 p {
@@ -95,7 +97,8 @@ input, textarea {
 }
 
 textarea{
-    min-width: 95%;
+    width: 95%;
+    resize: none;
 }
 
 textarea::placeholder {
@@ -110,12 +113,6 @@ textarea::placeholder {
     flex-direction: column;
 }
 
-.checker {
-    display: grid;
-    grid-template-columns: 10% 5% 75%;
-    align-items: top;
-    white-space: nowrap;
-}
 
 .button {
     text-align: center;
@@ -153,7 +150,25 @@ footer{
         display: none;
     }
     textarea {
-        width: 70%;
+        width: 93%;
     }
 }
 
+@media (max-width: 600px) {
+    fieldset {
+        margin: 2px;
+    }
+    textarea {
+        width: 89%;
+    }
+    button {
+        margin-top:1rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    textarea {
+        width: 85%;
+    }
+}
