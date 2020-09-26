@@ -103,10 +103,10 @@ input {
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding: 0.7rem 2rem;
+    /*  *//*padding: 0.7rem 2rem;*/
 }
 
-#submit {
+/*#submit {
     background: #B9DFFF;
     color: #000;
     border: 1px solid #eee;
@@ -115,7 +115,7 @@ input {
     text-shadow: none;
     margin: 5px auto;
     font-size: 20px;
-}
+}*/
 
 #submit:hover {
     background: #016ABC;
@@ -134,8 +134,8 @@ input {
 
     background: #4267b2;
     border: solid 1px #4267b2;
-    color: #fff;
-    /*padding: 10px;*/
+    color: #fff; 
+    padding: 0.7rem 2rem
 }
 
 #submit:active {
