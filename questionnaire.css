@@ -11,18 +11,40 @@ body {
     display: block;
     font-family: 'Open Sans';
     margin-top: 1rem;
+    background-color: rgba(240,255,255, 0.6);
 }
 
 .logo {
-    border-radius: 25px;
-    max-width: 15%;
-    margin: 5px;
-    padding-left: 43%;
-    padding-right: 5px;
-    align-content: center;
+    border-radius: 10px;
+    width: 10%;
+    max-width: 90px;
+    float: left;
+    margin-right: 1.0rem;
+    margin-left: 15rem;
 }
 
-h1, legend, p {
+h1 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    font-family: "Oxygen", Arial, sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+#description {
+    text-align: center;
+    margin-right: 25rem;
+}
+
+legend {
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: rgba(157, 15, 161);
+    text-align: center;
+    
+}
+
+p {
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -36,12 +58,14 @@ ul {
 
 li {
     font-size: 20px;
+    margin-bottom: 0.3rem;
     padding: 5px 0;
 }
 
 label {
     font-size: 1.5rem;
     color: black;
+    margin-bottom: 0.3rem;
 }
 fieldset {
     display: flex;
@@ -53,9 +77,14 @@ input {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 5px 3px;
-    margin: 0 0 10px 0;
+    padding: 1.2rem 1.2rem;
+    margin: 0 0px 10px 0px;
+    border-style: solid;
     border-radius: 5px;
+    border-width: 2px;
+    border-color: #ccc;
+    font-size: 1.05em;
+    
 }
 
 .form-group {
@@ -74,9 +103,10 @@ input {
     text-align: center;
     display: block;
     margin: 0 auto;
+    /*  *//*padding: 0.7rem 2rem;*/
 }
 
-#submit {
+/*#submit {
     background: #B9DFFF;
     color: #000;
     border: 1px solid #eee;
@@ -85,7 +115,7 @@ input {
     text-shadow: none;
     margin: 5px auto;
     font-size: 20px;
-}
+}*/
 
 #submit:hover {
     background: #016ABC;
@@ -104,8 +134,8 @@ input {
 
     background: #4267b2;
     border: solid 1px #4267b2;
-    color: #fff;
-    padding: 10px;
+    color: #fff; 
+    padding: 0.7rem 2rem
 }
 
 #submit:active {

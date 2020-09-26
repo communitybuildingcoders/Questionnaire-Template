@@ -1,8 +1,7 @@
+
 body {
   margin: 0;
 }
-
-
 
 /* background */
 
@@ -48,7 +47,8 @@ body {
   width: 15%;
   max-width: 90px;
   float: left;
-  margin-right: 1.5rem;
+  margin-right: 1.0rem;
+  /*margin-left:  4.0rem;*/ /*moves logo to center*/
 }
 
 
@@ -127,8 +127,6 @@ body {
   background-color: #2C89A0;
 }
 
-
-
 /*  
   Based on bootstrap's media query breakpoints
   xs = Extra small <576px. Max container width None (auto)
@@ -156,7 +154,8 @@ body {
 @media screen and (min-width: 576px) {
   .employee-questionnaire .company h1 {
     font-size: 1.8rem;
-    padding-top: 2rem;
+    padding-top: 2.0rem;
+    
   }
   .employee-questionnaire .content-primary {
     padding: 30px 50px 110px;
@@ -178,7 +177,7 @@ body {
     margin-left: 30px;
     min-height: 90vh;
   }
-  .employee-questionnaire .company h1 {
+ .employee-questionnaire .company h1 {
     font-size: 2rem;
   }
 }
@@ -191,14 +190,14 @@ body {
     max-width: 840px;
   }
   .employee-questionnaire .company h1 {
-    font-size: 2.3rem;
+    font-size: 2.0rem;
   }
 }
 
 /* x-large screens */
 
 @media screen and (min-width: 1200px) {
-  .employee-questionnaire .company h1 {
-    font-size: 2.5rem;
-  }
+ .employee-questionnaire .company h1 {
+    font-size: 2.3rem;
+  } 
 }

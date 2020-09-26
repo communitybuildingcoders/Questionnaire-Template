@@ -11,16 +11,16 @@
 </head>
 
 <body>
+    <div class="overlay"></div>
     <div class="container">
         <div class="content">
-            <h1 id="title">CBCoders Website Questionnaire</h1><span><img class="logo"
-                    src="https://cdn.discordapp.com/attachments/754425697237467150/755120803166683387/cbcoders.png"
-                    alt="" srcset=""></span>
+            <span><img class="logo" src="./images/logo.svg" alt="CBCoders logo"></span>
+                <h1>Community Building Coders</h1>
             <p id="description">Please let us know how we can serve you.</p>
             <hr>
             <form id="survey-form" name="questionnaire" method="POST" data-netlify="true">
                 <fieldset id="top">
-                    <legend>Personal Information</legend>
+                    <legend>Personal Information</legend></br>
                         <span class="form-group"><label id="name-label" for="name">Name: </label><input id="name"
                             type="text" name="name" required placeholder="Enter Your Name"></span>
                         <span class="form-group"><label id="org-label" for="name">Organization: </label><input id="orgName"
@@ -31,45 +31,45 @@
                             type="url" min="0" max="130" name="url" placeholder="Enter Your Current Website URL"></span>
                 </fieldset>
                 <fieldset>
-                    <legend>Tell Us A Little About Your Current Website</legend>
+                    <legend>Current Website</legend></br>
                        <label id="likes-label">What do you love about the current version of website, or not love?</label>
-                        <textarea id="comment0" name="likes" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment0" name="likes" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label for="dislikes-label">What do you find frustrating about your website, how or why is frustrating?</label>
-                        <textarea id="comment1" name="dislikes" placeholder="Enter Your Response Here..." rows="10"></textarea>
-                        <label for="ux-label">What apects of your website diminish your user's experience or are frustrating to your site users?</label>
+                        <textarea id="comment1" name="dislikes" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
+                        <label for="ux-label">What apects of your website diminishes your user's experience and/or are frustrating to your site users?</label>
                         <textarea id="comment2" name="ux" placeholder="Enter Your Response Here..." rows="10"></textarea>
                 </fieldset>
                 <fieldset>
-                    <legend class>Let's Talk About The Future</legend>
+                    <legend class>The Future</legend></br>
                         <label id="needs-label">What needs or goals do you expect from your website that aren’t being
                             met by the current version?</label>
-                        <textarea id="comment3" name="needs" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment3" name="needs" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="purpose-label">What is the purpose of your website, what should your website achieve?</label>
-                        <textarea id="comment4" name="purpose" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment4" name="purpose" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="function-label">What function does your website serve your brand?</label>
-                        <textarea id="comment5" name="function" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment5" name="function" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="expect-label">What do you expect visitors accomplish when they visit your website?</label>
-                        <textarea id="comment6" name="expect" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment6" name="expect" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="audience-label">Who is the website's intended target audience, who are you speaking to?</label>
-                        <textarea id="comment7" name="audience" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment7" name="audience" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="design-label">What image, look, or feel do you want your brand’s website to portray?</label>
-                        <textarea id="comment8" name="design" placeholder="Enter Your Response Here..." rows="10"></textarea>
+                        <textarea id="comment8" name="design" placeholder="Enter Your Response Here..." rows="10"></textarea></br>
                         <label id="comments-label">When analyzing your competitors’ sites, what do you like and not like
                             about their websites?</label>
-                        <textarea id="comment9" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment9" placeholder="Enter your response here..." rows="10"></textarea></br>
                         <label id="comments-label">What is the project timeline?</label>
-                        <textarea id="comment2" name="project-timeline" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment2" name="project-timeline" placeholder="Enter your response here..." rows="10"></textarea></br>
                         <label id="comments-label">Which functions or features are necessary to have,  versus nice to
                             have?</label>
-                        <textarea id="comment3" name="functions-features" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment3" name="functions-features" placeholder="Enter your response here..." rows="10"></textarea></br>
                         <label id="comments-label">What are the most important calls-to-action (CTAs) on your
                             site?</label>
-                        <textarea id="comment4" name="ctas" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment4" name="ctas" placeholder="Enter your response here..." rows="10"></textarea></br>
                         <label id="comments-label">How much traffic are you anticipating?</label>
-                        <textarea id="comment5" name="traffic" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment5" name="traffic" placeholder="Enter your response here..." rows="10"></textarea></br>
                         <label id="comments-label">What is the most important information your site must relay to the
                             user, especially on the home page?</label>
-                        <textarea id="comment6" name="important-info" placeholder="Enter your response here..." rows="10"></textarea>
+                        <textarea id="comment6" name="important-info" placeholder="Enter your response here..." rows="10"></textarea></br>
                 </fieldset>
                 <div class="button">
                     <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
