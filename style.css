@@ -1,9 +1,21 @@
 /* Fonts */
 
-
 /* Base Styles */
+:root {
+  --main-green: #2ca05a;
+  --main-purple: #a02c89;
+  --main-blue: #2c89a0;
+  --light-gray: #f6f6f6;
+}
 
-html,body {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -12,17 +24,12 @@ html,body {
 
 /* Cover Section */
 
-
 /* How Can We Help Section*/
-
 
 /* Let's Get Started Section */
 
-
 /* Meet the Team Section */
 
-
 /* Social Media Section */
-
 
 /* Media Queries */
