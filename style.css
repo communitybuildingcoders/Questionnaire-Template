@@ -39,10 +39,24 @@ body {
 }
 
 .team__header {
-  max-width: 25%;
+  text-align: center;
+  max-width: 25vw;
+  margin-top: 2rem;
   margin-bottom: 3rem;
-  /* height: 50vh; */
+  margin-left: -6rem;
+  border-radius: 50%;
+  height: 50vh; 
   background-color: #fff;
+}
+
+.team__header-title {
+  color: #a02c89;
+  font-size: 3.25rem;
+  padding-top: 4rem;
+}
+
+.team__header-subtitle {
+  font-weight: bolder;
 }
 
 .team__details {
@@ -53,6 +67,8 @@ body {
 
 .team__detail {
   display: flex;
+  margin-top:  -8rem;
+  margin-bottom: 8rem;
   align-items: center;
   justify-content: space-around;
   color: var(--main-blue);
