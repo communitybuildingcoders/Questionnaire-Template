@@ -36,7 +36,6 @@ body {
 .team {
   max-width: 90%;
   margin-left: 1.5rem;
-  column-count: 4;
 }
 
 .team__header {
@@ -68,6 +67,7 @@ body {
 
 .team__detail {
   display: flex;
+  column-count: 4;
   margin-top: -8rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -89,7 +89,7 @@ body {
 
 .team__headshot {
   display: flex;
-margin-top: 1rem;
+ margin-top: 2rem;
 }
 
 .team__headshot > img {
