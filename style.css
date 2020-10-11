@@ -1,28 +1,93 @@
 /* Fonts */
 
-
 /* Base Styles */
+:root {
+  --main-green: #2ca05a;
+  --main-purple: #a02c89;
+  --main-blue: #2c89a0;
+  --light-gray: #f6f6f6;
+}
 
-html,body {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Cover Section */
+body {
+  background-color: var(--light-gray);
+}
 
+/* Cover Section */
 
 /* How Can We Help Section*/
 
-
 /* Let's Get Started Section */
 
-
 /* Meet the Team Section */
+.team {
+  max-width: 90%;
+  margin: 0 auto;
+}
 
+.team__header {
+  max-width: 25%;
+  margin-bottom: 3rem;
+  /* height: 50vh; */
+  background-color: #fff;
+}
+
+.team__details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.team__detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--main-blue);
+}
+
+.team__detail:nth-of-type(3n + 1) {
+  color: var(--main-green);
+}
+
+.team__detail:nth-of-type(3n + 2) {
+  color: var(--main-purple);
+}
+
+.team__detail:last-of-type {
+  margin: 0 auto;
+}
+
+.team__headshot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__headshot > img {
+  width: 250px;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team__info {
+  margin-left: 1.5rem;
+}
 
 /* Social Media Section */
-
 
 /* Media Queries */
