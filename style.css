@@ -35,15 +35,15 @@ body {
 /* Meet the Team Section */
 .team {
   max-width: 90%;
-  margin: 0 auto;
+  margin-left: 1.5rem;
+  column-count: 4;
 }
 
 .team__header {
   text-align: center;
   max-width: 25vw;
   margin-top: 2rem;
-  margin-bottom: 3rem;
-  margin-left: -6rem;
+  margin-left: -1.75rem;
   border-radius: 50%;
   height: 50vh; 
   background-color: #fff;
@@ -52,6 +52,7 @@ body {
 .team__header-title {
   color: #a02c89;
   font-size: 3.25rem;
+  font-weight: bolder;
   padding-top: 4rem;
 }
 
@@ -67,8 +68,9 @@ body {
 
 .team__detail {
   display: flex;
-  margin-top:  -8rem;
-  margin-bottom: 8rem;
+  margin-top: -8rem;
+  padding-top: 2rem;
+  padding-bottom: 4.75rem;
   align-items: center;
   justify-content: space-around;
   color: var(--main-blue);
@@ -90,18 +92,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .team__headshot > img {
-  width: 150px;
+  width: 125px;
   max-width: 100%;
-  height: 150px;
+  height: 125git staupx;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .team__info {
   margin-left: 1.5rem;
+  margin-right: 3.15rem;
 }
 
 /* Social Media Section */
