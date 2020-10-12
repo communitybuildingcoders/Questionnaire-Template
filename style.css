@@ -87,6 +87,10 @@ body {
   color: var(--main-purple);
 }
 
+.team__details:nth-of-type(16n) {
+ margin-bottom: -10rem;
+}
+
 /*.team__detail:last-of-type {
   margin: auto;
 }*/
