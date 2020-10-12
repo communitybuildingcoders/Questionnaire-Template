@@ -34,9 +34,10 @@ body {
 
 /* Meet the Team Section */
 .team {
-  max-width: 90%;
-  margin-left: 1.5rem;
+  float: left;
   column-count: 4;
+  margin-left: 1.5rem;
+
 }
 
 .team__header {
@@ -71,7 +72,6 @@ body {
   margin-top: -8rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
-  align-items: center;
   color: var(--main-blue);
 }
 
@@ -83,8 +83,12 @@ body {
   color: var(--main-purple);
 }
 
-/*.team__headshot {
+/*.team__detail:last-of-type {
+  margin: auto;
+}*/
 
+/*.team__headshot {
+  
 }*/
 
 .team__headshot > img {
@@ -100,6 +104,12 @@ body {
 .team__info {
   margin-left: 1.5rem;
   margin-right: 3.15rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Social Media Section */
