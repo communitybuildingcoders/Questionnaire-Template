@@ -36,6 +36,7 @@ body {
 .team {
   max-width: 90%;
   margin-left: 1.5rem;
+  column-count: 4;
 }
 
 .team__header {
@@ -67,7 +68,6 @@ body {
 
 .team__detail {
   display: flex;
-  column-count: 4;
   margin-top: -8rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -83,14 +83,9 @@ body {
   color: var(--main-purple);
 }
 
-.team__detail:last-of-type {
-  margin: 0 auto;
-}
+/*.team__headshot {
 
-.team__headshot {
-  display: flex;
- margin-top: 2rem;
-}
+}*/
 
 .team__headshot > img {
   width: 125px;
@@ -98,6 +93,8 @@ body {
   height: 125px;
   border-radius: 50%;
   object-fit: cover;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .team__info {
