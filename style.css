@@ -72,14 +72,18 @@ body {
   margin-top: -8rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
+ 
+}
+
+.team__details:nth-of-type(3n + 1) {
   color: var(--main-blue);
 }
 
-.team__detail:nth-of-type(3n + 1) {
+.team__details:nth-of-type(3n + 2) {
   color: var(--main-green);
 }
 
-.team__detail:nth-of-type(3n + 2) {
+.team__details:nth-of-type(3n + 3) {
   color: var(--main-purple);
 }
 
@@ -90,6 +94,9 @@ body {
 /*.team__headshot {
   
 }*/
+.team__role {
+  color: #000000;
+}
 
 .team__headshot > img {
   width: 125px;
