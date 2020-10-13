@@ -29,7 +29,11 @@ img {
 
 
 body {
-  background-color: var(--light-gray);
+  /*
+    background-color: var(--light-gray);
+    causes discrepancy with How Can We Help mockup; 
+    removed background on body to apply only to sections that need it
+  */
 }
 
 
