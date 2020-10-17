@@ -32,6 +32,15 @@ body {
 
 /* Let's Get Started Section */
 
+.lets{
+  max-width:50%;
+  margin:20px auto;
+  padding:0;
+  
+}
+
+
+
 /* Meet the Team Section */
 .team {
   float: left;
