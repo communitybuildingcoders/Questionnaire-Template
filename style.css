@@ -20,15 +20,126 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font: 16px sans-serif;
 }
+img {
+  width: 100%;
+  display: block;
+}
+
+
+body {
+  /*
+    background-color: var(--light-gray);
+    causes discrepancy with How Can We Help mockup; 
+    removed background on body to apply only to sections that need it
+  */
+}
+
 
 /* Cover Section */
 
 /* How Can We Help Section*/
+#services h1,
+#services h2 {
+  text-transform: uppercase;
+}
+#services h1 {
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw + 1rem, 4rem);
+  color: var(--main-purple);
+  text-align: center;
+}
+#services h2 {
+  font-size: 1.2rem; 
+  font-size: clamp(1.2rem, 1vw + 1rem, 2rem);
+  color: var(--main-green);
+  margin-bottom: .5rem;
+}
+#services {
+  max-width: 1400px;
+  margin: 4rem auto;
+  background-color: #fff;
+}
+#services .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#services .service {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  max-width: 400px;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  background-color: var(--light-gray);
+}
+#services .service .icon {
+  flex: 1 1 auto;
+  padding-right: 1rem;
+}
+#services .service .content {
+  flex: 2 1 auto;
+}
 
 /* Let's Get Started Section */
 
 /* Meet the Team Section */
+.team {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.team__header {
+  max-width: 25%;
+  margin-bottom: 3rem;
+  /* height: 50vh; */
+  background-color: #fff;
+}
+
+.team__details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.team__detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--main-blue);
+}
+
+.team__detail:nth-of-type(3n + 1) {
+  color: var(--main-green);
+}
+
+.team__detail:nth-of-type(3n + 2) {
+  color: var(--main-purple);
+}
+
+.team__detail:last-of-type {
+  margin: 0 auto;
+}
+
+.team__headshot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__headshot > img {
+  width: 250px;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team__info {
+  margin-left: 1.5rem;
+}
 
 /* Social Media Section */
 
