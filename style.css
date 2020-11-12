@@ -32,21 +32,119 @@ body {
 
 /* Let's Get Started Section */
 
-.lets{
-  max-width:50%;
-  margin:20px auto;
-  padding:0;
-  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.get_started_header
-{
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lets-get-started{
+  
+  align-self: center;
+margin-bottom:80px;
+}
+
+.get_started_header {
   text-align: center;
-  color:  #a02c89;
+  color: #a02c89;
 
   font-size: 3.25rem;
   font-weight: bolder;
   padding-top: 4rem;
+}
+
+.user-details {
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.user-details input {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.form-container{
+  width:50%;
+  margin:0 auto;
+  height:400px;
+  border:2px solid #9d0fa1;
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+#questions-form {
+  width:80%;
+  height:400px;
+  margin: 0 auto;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  font-size: 1em;
+}
+
+#detail-box{
+  width:90%;
+  margin: auto;
+  padding:5px;
+}
+
+.questions h2 {
+  margin: auto;
+  font-weight: 400;
+}
+
+.radio-flex-container{
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  
+  padding-left:0;
+}
+
+.form-group {
+  flex:0 0 33.3333%;
+display:flex;
+flex-flow: row nowrap;
+padding:5px 0;
+font-size: 1rem;
+}
+
+.form-group label {
+  text-transform: capitalize;
+}
+
+#prev-btn, #next-btn{
+  padding:0;
+  background: transparent;
+  border:none;
+  font-size: 4rem;
+  margin:auto;
+}
+
+#prev-invisible-btn{
+   padding:0;
+  background: transparent;
+  border:none;
+  font-size: 4rem;
+  margin:auto;
+ visibility: hidden;
+}
+
+#prev-btn:hover, #next-btn:hover{
+cursor: pointer;
+}
+
+#prev-btn:focus, #next-btn:focus{
+  outline: none;
 }
 
 
@@ -56,7 +154,7 @@ body {
   float: left;
   column-count: 4;
   margin-left: 1.5rem;
-
+  
 }
 
 .team__header {
