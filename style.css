@@ -20,15 +20,68 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font: 16px sans-serif;
+}
+img {
+  width: 100%;
+  display: block;
 }
 
+
 body {
-  background-color: var(--light-gray);
+  /*
+    background-color: var(--light-gray);
+    causes discrepancy with How Can We Help mockup; 
+    removed background on body to apply only to sections that need it
+  */
 }
+
 
 /* Cover Section */
 
 /* How Can We Help Section*/
+#services h1,
+#services h2 {
+  text-transform: uppercase;
+}
+#services h1 {
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw + 1rem, 4rem);
+  color: var(--main-purple);
+  text-align: center;
+}
+#services h2 {
+  font-size: 1.2rem; 
+  font-size: clamp(1.2rem, 1vw + 1rem, 2rem);
+  color: var(--main-green);
+  margin-bottom: .5rem;
+}
+#services {
+  max-width: 1400px;
+  margin: 4rem auto;
+  background-color: #fff;
+}
+#services .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#services .service {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  max-width: 400px;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  background-color: var(--light-gray);
+}
+#services .service .icon {
+  flex: 1 1 auto;
+  padding-right: 1rem;
+}
+#services .service .content {
+  flex: 2 1 auto;
+}
 
 /* Let's Get Started Section */
 
