@@ -244,7 +244,7 @@ body {
   border-radius: 50%;
 }
 
-.team__member-profile img {
+.team__member-profile, img {
   display: inline-block;
   height: 200px;
   width: 200px;
