@@ -239,13 +239,23 @@ h4{
 
 /* Meet the Team Section */
 .team {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
 
   max-width: 90%;
+  margin: auto;*/
+  max-width: 90%;
   margin: auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .team__header {
@@ -254,16 +264,20 @@ h4{
   background-color: #fff;
 
   text-align: center;
-  flex-grow: 1;
+  width: max-content;
+  height: auto;
+  margin-left: -2rem;
+  margin-bottom: -5rem;
 }
 
 .team__header-title {
   color: var(--main-purple);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .team__header-subtitle {
   margin-top: 1rem;
+  font-weight: bolder;
 }
 
 .team__member {
@@ -273,7 +287,7 @@ h4{
 }
 
 .team__member-profile {
-  margin-right: 1rem;
+  margin-right: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,9 +295,16 @@ h4{
 }
 
 .team__member-profile, img {
+
+.team__member-role {
+  color: #000000;
+}
+
+.team__member-profile img {
+
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 
   object-fit: cover;
@@ -304,8 +325,19 @@ h4{
 /* Social Media Section */
 
 /* Media Queries */
-@media screen and (max-width:700px){
-  .get_started_header {
+
+
+
+@media only screen and (max-width: 319) {
+  
+}
+/*mobile devices*/
+@media only screen and (min-width: 320) and (max-width: 480) {
+
+}
+/*ipads, talets*/
+@media only screen and (min-width: 481) and (max-width: 768) {
+ .get_started_header {
   padding-top: 0;
 }
 
@@ -349,3 +381,16 @@ h4{
   margin-left:5px;
 }
 }
+/*small screens, laptops*/
+@media only screen and (min-width: 769) and (max-width: 1024) {
+
+}
+/*desktops, large screens*/
+@media only screen and (min-width: 1025) and (max-width: 1200) {
+
+}
+/*extra screens, TV*/
+@media only screen and (min-width: 1201) {
+
+}
+
