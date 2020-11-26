@@ -57,7 +57,7 @@ img {
 }
 #services {
   max-width: 1400px;
-  margin: 4rem auto;
+  margin: 1rem auto;
   background-color: #fff;
 }
 #services .container {
@@ -102,10 +102,8 @@ body {
 .get_started_header {
   text-align: center;
   color: #a02c89;
-
   font-size: 3.25rem;
   font-weight: bolder;
-  padding-top: 4rem;
 }
 
 .user-details {
@@ -125,72 +123,64 @@ body {
 
 .form-container {
   width: 60%;
-  margin: 0 auto;
+  margin: auto;
   height: 400px;
   border: 2px solid #9d0fa1;
   display: flex;
-  flex-flow: row wrap;  
+  flex-flow: row nowrap;  
 }
 
 #questions-form {
   width: 90%;
   height: 400px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 #questionnaire-wrapper{
   width:90%;
   margin:0 auto;
-  margin-left:50px;
-  max-height:500px;
-  overflow: hidden;
 }
 
 .questions {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 1em;
 }
 
-#detail-box {
-  width: 90%;
-  margin: auto;
-  padding: 5px;
+#first-question, #second-question{
+  font-size: 1.1rem;
+  padding:5px;
 }
 
-.questions h2 {
-  margin: 10px auto;
-  font-weight: 400;
+#one-question-container{
+  padding:20px 0;
 }
-
-
 
 .radio-flex-container {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-
-  padding-left: 0;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
 }
 
-.form-group {
-  flex: 0 0 33.3333%;
-  display: flex;
-  flex-flow: row nowrap;
-  padding: 5px 0;
-  font-size: 1.4vw;
+.form-group{
+  display:flex;
+  flex-flow:row nowrap;
+  padding:4px;
 }
 
 .form-group label {
   text-transform: capitalize;
+  grid-area: right;
+  font-size:.9rem;
+  margin-left:10px;
+}
+input[type=checkbox]{
+  grid-area:left;
 }
 
 .more-information-textbox{
   margin:auto;
   width:100%;
-  margin-top:50px;
-  
+  margin-top:50px;  
 }
 
 #more-info-label{
@@ -209,7 +199,6 @@ h4{
   text-align: center;
 }
 
-
 #prev-btn,
 #next-btn {
   padding: 0;
@@ -227,12 +216,12 @@ h4{
   margin: auto;
 }
 
-#prev-btn:hover,
+#prev-invisible-btn:hover,
 #next-btn:hover {
   cursor: pointer;
 }
 
-#prev-btn:focus,
+#prev-invisible-btn:focus,
 #next-btn:focus {
   outline: none;
 }
@@ -296,6 +285,8 @@ h4{
 
 .team__member-profile, img {
 
+
+} 
 .team__member-role {
   color: #000000;
 }
@@ -308,6 +299,10 @@ h4{
   border-radius: 50%;
 
   object-fit: cover;
+}
+
+.team__member-role {
+  color: #000000;
 }
 
 .team__member:nth-of-type(2n + 1) .team__member-info {
@@ -336,50 +331,26 @@ h4{
 
 }
 /*ipads, talets*/
-@media only screen and (min-width: 481) and (max-width: 768) {
- .get_started_header {
-  padding-top: 0;
+@media only screen  and (max-width: 768px) {
+  #one-question-container{
+    padding:0;
+  }
+.form-group{
+  padding: 0;
 }
-
-  .form-container {
-  width: 80%;
-  margin: 0 auto;
-  height: 600px;
-  border: 2px solid #9d0fa1;
-  display: flex;
-  flex-flow: row wrap;
-}
-.form-group {
-  flex: 0 0 49%;
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 10px 0;
-  font-size:12px;
-  font-weight: 600;
-  text-align: center;
-}
-
-#questions-form {
-  width: 80%;
-  height: 600px;
-  margin: 0 auto;
-}
-
-#questionnaire-wrapper{
+  .radio-flex-container {
   margin:0 auto;
-  max-height: 600px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
 }
 
-#first-question, #second-question{
-  font-size: 1.5em;
-  text-align: center;
-  margin-top:20px;
-}
 
-.user-details{
-  width:100%;
-  margin-left:5px;
+.form-container{
+  width:90%;
+  height:500px;
 }
+ 
 }
 /*small screens, laptops*/
 @media only screen and (min-width: 769) and (max-width: 1024) {
