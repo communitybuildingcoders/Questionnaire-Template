@@ -1,0 +1,80 @@
+{
+    "data":[
+        {
+            "question":"What do you love about your current site?",
+            "options":[
+              {"Option1": "Visually Appealing",
+              "Option2": "User Friendly",
+              "Option3": "Social Media Icons",
+              "Option4": "Simple",
+              "Option5": "Clean Design",
+              "Option6": "Loads Quickly & Properly"}
+            ],
+            "id":"1"
+        },
+         {
+           "question": "What do you dislike about your current website?",
+           "options":[
+           {"Option1": "Long Loading Time",
+           "Option2": "Poor Mobile Design",
+           "Option3": "Poor Navigation",
+           "Option4": "Bad Links",
+           "Option5": "Bad Images",
+           "Option6": "Inconprenhensible information"}
+           ],
+           "id": "2"
+         },
+          {
+            "question": "What purpose does your site serve?",
+            "options":[
+              {
+            "Option1": "Increase Traffic",
+            "Option2": "More Social Medial Followers",
+            "Option3": "More Newsletter Signups",
+            "Option4": "Smooth User Experience",
+            "Option5": "More Online Sales",
+            "Option6": "Other, explain."
+              }
+            ],
+            "id": "3"
+          },
+           {
+             "question": "What features do you need?",
+             "options":[
+               {
+                 "Option1": "Testimonials",
+             "Option2": "Newsletter Form",
+             "Option3": "Contact Form",
+             "Option4": "FAQ: Documents",
+             "Option5": "Other Tools",
+             "Option6": "SEO/Optimization"
+               }
+             ],
+             "id": "4"
+           },
+             {
+               "question": "What is your intended audience?",
+               "Option1": "Specific Age Range",
+               "Option2": "Region",
+               "Option3": "Ethnicity",
+               "Option4": "Gender",
+               "Option5": "Certain Economic Class",
+               "Option6": "Ocupation",
+               "id": "5"
+             },
+               {
+                 "question": "What is your project timeline?",
+                 "options":[
+                   {
+                    "Option1": "2-4 Weeks",
+                 "Option2": "1-3 Months",
+                 "Option3": "3-6 Months",
+                 "Option4": "6-9 Months",
+                 "Option5": "! year",
+                 "Option6": "SEO/Optimization"
+                   }
+                 ],
+                 "id": "6"
+               }
+    ]
+}
