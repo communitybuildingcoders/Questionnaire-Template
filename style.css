@@ -324,19 +324,19 @@ h4{
 
 /* Social Media Section */
 .social-media {
-  margin: 50px 0;
   background-color: #2d89a0;
-  position: relative;
-  height: 650px;
   display: flex;
   font: 20px sans-serif;
+  height: 650px;
+  margin: 50px 0; 
+  position: relative;
 }
 
 .social-media-container {
-  width: 769px;
   max-height: 700px;
   margin: 70px auto;
   position: relative;
+  width: 769px;
 }
 
 .social-media-title {
@@ -347,19 +347,19 @@ h4{
 }
 
 .social-media-title h2 {
-  padding: 10px 30px;
-  width: 350px;
   font-size: 2.5rem;
+  padding: 10px 30px;
+  width: 350px; 
 }
 
 .contact-list {
-  background-color: #a02d89;
-  height: 250px;
-  width: 70%;
-  margin: 100px auto 0;
-  display: flex;
   align-items: center;
+  background-color: #a02d89;
+  display: flex;
+  height: 250px;
   justify-content: center;
+  margin: 100px auto 0;
+  width: 70%; 
 }
 
 .contact-list ul {
@@ -378,58 +378,64 @@ h4{
 .contact-list ul li svg {
   color: white;
   height: 25px;
-  position: relative;
-  top: 5px;
   margin-right: 20px;
+  position: relative;
+  top: 5px; 
 }
 
-.contact-list a {
+.contact-list ul li img {
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.contact-list ul li a {
   color: #ffffff;
-  text-decoration: none;
-  letter-spacing: 1.4px;
   font-weight: 200;
+  letter-spacing: 1.4px;
+  text-decoration: none;
 }
 
 .social-media img {
-    max-width: 300px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+  bottom: 0;
+  max-width: 300px;
+  position: absolute;
+  right: 0;  
 }
 
 .bg-box {
-  position: absolute;
   height: 40px;
+  position: absolute;
   width: 40px;
 }
 
 .white-bottom {
   background-color: #fff;
-  left: 10px;
   bottom: 20px;
+  left: 10px;
 }
 
 .blue-bottom {
   background-color: #093c82;
-  left: 50px;
   bottom: 20px;
+  left: 50px;
 }
 
 .pink-top {
   background-color: #a02c89;
-  top: -70px;
   left: 20px;
+  top: -70px;
 }
 
 .green-top {
-  left: 350px;
   background-color: #2ca05a;
+  left: 350px;
 }
 
 .white-top {
+  background-color: #ffffff;
   right: 0;
   top: 140px;
-  background-color: #ffffff;
 }
 
 /* Media Queries */
@@ -446,20 +452,22 @@ h4{
   .social-media-title {
     width: 250px;
   }
+
   .social-media-title h2{
     font-size: 24px;
     width: 100%;
   }
+
   .contact-list {
     width: 95%;
   }
 
   .contact-list ul li {
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     margin: 35px 20px;
     width: 80%;
-    display: flex;
-    flex-direction: row;
   }
 
   .contact-list ul li p {
@@ -469,7 +477,6 @@ h4{
   .social-media img {
     width: 200px;
   }
-
 
   .green-top {
     left: 250px;
@@ -564,19 +571,22 @@ h4{
 }
   /* Social Media */
 
-  .social-media-title h2 {
-    font-size: 2rem;
-  }
   .social-media-container {
     width: 90%;
   }
 
+  .social-media-title h2 {
+    font-size: 2rem;
+  }
+  
   .contact-list {
     width: 90%;
   }
+
   .contact-list ul {
     margin-left: 40px;
   }
+  
   .contact-list ul li p {
     width: 80%;
   }
